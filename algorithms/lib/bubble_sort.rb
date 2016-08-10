@@ -8,7 +8,7 @@ class Array
 
         next if next_num.nil?
 
-        if (num > next_num)
+        if num > next_num
           self[index+1] = num
           self[index] = next_num
           swapped = true
