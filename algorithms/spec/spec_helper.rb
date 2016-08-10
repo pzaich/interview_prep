@@ -8,11 +8,10 @@ RSpec.configure do |config|
 end
 
 RSpec.shared_examples_for "sorts array" do
-  let(:array) { 10.times.map {|i| i }.shuffle }
-  let(:bubble_sorted) { array.bubble_sort }
+  let(:array) { 1_000.times.map {|i| i }.shuffle }
 
   it 'sorts elements from smallest to largest' do
-    expect(bubble_sorted[0]).to eq(bubble_sorted.min)
-    expect(bubble_sorted[-1]).to eq(bubble_sorted.max)
+    expect(sorted[0]).to eq(sorted.min)
+    expect(sorted[-1]).to eq(sorted.max)
   end
 end
