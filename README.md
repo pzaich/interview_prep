@@ -4,4 +4,4 @@ Material to help you with your next technical interview. Complete with RSpec tes
 
 ## Algorithms
 - [Bubble Sort](algorithms/lib/bubble_sort.rb)
-- [Merge Sort](algorithms/lib/bubble_sort.rb)
+- [Merge Sort](algorithms/lib/merge_sort.rb)
