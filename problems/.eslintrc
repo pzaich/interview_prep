@@ -26,9 +26,6 @@
             "error",
             "never"
         ],
-        "no-console": [
-            "warn"
-        ],
         "react/prop-types": 0
     },
     "globals": {
